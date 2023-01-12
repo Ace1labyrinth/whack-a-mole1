@@ -1,0 +1,112 @@
+body {
+    background-image: url(./cartoon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 82px;
+    font-weight: bolder;
+    color: orangered;
+    margin-top: 0%;
+}
+#mole {
+    position: absolute;
+    left: 39%;
+    top: 40%;
+}
+
+#mud {
+    position: fixed;
+    left: 32%;
+    width: 500px;
+    top: 40%;
+}
+#start {
+    height: 70px;
+    width: 180px;
+    background-color: darkgreen;
+    color: floralwhite;
+    font-size: x-large;
+    font-weight: bold;
+    border: floralwhite solid 4px;
+    border-radius: 32px;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    cursor: pointer;
+}
+.dirt {
+    width: 170px;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    /* overflow: hidden;
+    visibility: hidden; */
+}
+#dirt1 {
+    top: 63%;
+    left: 20%;
+}
+#dirt2 {
+    top: 81%;
+    left: 20%;
+}
+
+#dirt3 {
+    top: 62%;
+    left: 45%;
+}
+#dirt4 {
+    top: 81%;
+    left: 45%;
+}
+
+#dirt5 {
+    top: 62%;
+    left: 65%;
+}
+#dirt6 {
+    top: 81%;
+    left: 65%;
+}
+.points {
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 20px;
+    visibility: hidden;
+    color: orangered;
+}
+.mole {
+    position: absolute;
+    height: 80px;
+    width: 70px;
+    visibility: hidden;
+}
+#mole1 {
+    top: 64%;
+    left: 23%;
+}
+#mole3 {
+    top: 64%;
+    left: 23%;
+}
+#mole5 {
+    top: 64%;
+    left: 68%;
+}
+#mole2 {
+    top: 82%;
+    left: 23%;
+}
+#mole4 {
+    top: 82%;
+    left: 48%;
+}
+#mole6 {
+    top: 82%;
+    left: 68%;
+}
